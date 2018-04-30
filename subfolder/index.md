@@ -1,0 +1,3 @@
+# This is in a subfolder
+
+Some text ...
