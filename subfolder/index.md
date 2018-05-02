@@ -39,3 +39,5 @@ Some text ...
   </li>
 {% endfor %}
 </ul>
+
+{{ site }}
