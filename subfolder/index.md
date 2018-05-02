@@ -42,4 +42,6 @@ Some text ...
 
 {{ site }}
 
+{{ page }}
+
 {{ page.data }}
