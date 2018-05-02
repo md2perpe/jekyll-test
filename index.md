@@ -16,3 +16,6 @@
 * [{{ member.name }}](https://github.com/{{ member.github }})
 {% endfor %}
 
+
+{% for member in site.data.members %}* [{{ member.name }}](https://github.com/{{ member.github }}){% endfor %}
+
