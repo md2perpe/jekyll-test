@@ -1,3 +1,7 @@
+---
+title: Subfolder
+---
+
 # This is in a subfolder
 
 Some text ...
@@ -43,5 +47,3 @@ Some text ...
 {{ site }}
 
 {{ page }}
-
-{{ page.data }}
