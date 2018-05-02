@@ -30,3 +30,12 @@ Some text ...
   </li>
 {% endfor %}
 </ul>
+
+
+<ul>
+{% for member in subfolder.data.members %}
+  <li>
+      {{ member.name }}, {{ member.born }}
+  </li>
+{% endfor %}
+</ul>
