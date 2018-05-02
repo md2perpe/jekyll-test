@@ -41,3 +41,5 @@ Some text ...
 </ul>
 
 {{ site }}
+
+{{ page.data }}
