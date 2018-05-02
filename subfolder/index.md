@@ -20,3 +20,13 @@ Some text ...
   </li>
 {% endfor %}
 </ul>
+
+
+
+<ul>
+{% for member in site.data.subfolder.members %}
+  <li>
+      {{ member.name }}, {{ member.born }}
+  </li>
+{% endfor %}
+</ul>
