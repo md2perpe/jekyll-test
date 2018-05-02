@@ -1,19 +1,19 @@
-- &adam
+adam:
   name: Adam Bertilsson
   email: adam.bertilsson@gmail.com
   roll: ordförande
 
-- &claes
+claes:
   name: Claes Davidsson
   email: claes.davidsson@hotmail.com
   roll: kassör
 
-- &erik
+erik:
   name: Erik Flugeteg
   email: erik.flugeteg@gmail.com
   roll: ledamot
 
-- &gustav
+gustav:
   name: Gustav Hjelm
   roll: ersättare
   
