@@ -3,25 +3,7 @@
 ## Subheading
 
 <ul>
-{% for member in site.data.members %}
-  <li>
-    <a href="https://github.com/{{ member.github }}">
-      {{ member.name }}
-    </a>
-  </li>
+{% for person in site.data.aktiva %}
+  <li><a href="mailto:{{ member.email }}">{{ member.name }}</a></li>
 {% endfor %}
 </ul>
-
-{% for member in site.data.members %}
-* [{{ member.name }}](https://github.com/{{ member.github }})
-{% endfor %}
-
-
-{% for member in site.data.members %}* [{{ member.name }}](https://github.com/{{ member.github }}){% endfor %}
-
-{% for member in site.data.members %}
-* [{{ member.name }}](https://github.com/{{ member.github }}){% endfor %}
-
-{% for member in site.data.members %}* [{{ member.name }}](https://github.com/{{ member.github }})
-{% endfor %}
-
