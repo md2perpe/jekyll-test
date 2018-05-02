@@ -2,8 +2,9 @@
 
 ## Subheading
 
-<ul>
+<dl>
 {% for person in site.data.aktiva %}
-  <li><a href="mailto:{{ person.email }}">{{ person.name }}</a> ({{ person.roll }})</li>
+  <dt>{{ person.roll }}</dt>
+  <dd><a href="mailto:{{ person.email }}">{{ person.name }}</a></dd>
 {% endfor %}
-</ul>
+</dl>
